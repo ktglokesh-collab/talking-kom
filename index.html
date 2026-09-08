@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"/>
+<meta name="theme-color" content="#111318"/><link rel="manifest" href="manifest.webmanifest"/><link rel="stylesheet" href="styles.css"/>
+<title>Talking Kom</title>
+</head>
+<body>
+<main class="app">
+<section class="stage" id="stage">
+<div class="ambient"></div><div class="speech" id="speech" aria-live="polite"></div>
+<div class="character-wrap" id="characterWrap"><img id="character" src="assets/kom.svg" alt="Kom" draggable="false"/><div class="impact" id="impact"></div></div>
+<div class="hint">Tap, poke or swipe me. Hold the mic and talk.</div>
+</section>
+<section class="controls"><button class="round" id="micBtn" aria-label="Hold to talk">🎤</button><button class="round" id="pokeBtn" aria-label="Poke">☝️</button><button class="round" id="slapBtn" aria-label="Slap">👋</button></section>
+<div class="status" id="status">Ready</div>
+</main><script src="app.js"></script>
+</body></html>
